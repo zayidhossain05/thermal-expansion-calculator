@@ -1,0 +1,4 @@
+gradio>=5.0,<7
+numpy>=1.24
+pandas>=2.0
+matplotlib>=3.7

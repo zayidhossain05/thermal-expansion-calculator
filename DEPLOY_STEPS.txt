@@ -1,0 +1,9 @@
+1. Create a PUBLIC GitHub repository named thermal-expansion-calculator.
+2. Upload app.py, requirements.txt, and render.yaml to the repository ROOT (not inside a folder).
+3. At https://dashboard.render.com select New > Web Service. Connect the GitHub repository.
+4. Choose Language Python, Branch main, Plan Free.
+5. Build command: pip install -r requirements.txt
+6. Start command: python app.py
+7. Deploy and open the resulting https://YOUR-SERVICE.onrender.com URL.
+8. WordPress Elementor: add HTML widget with <iframe src="https://YOUR-SERVICE.onrender.com" width="100%" height="1100" style="border:0" title="Thermal Expansion Calculator"></iframe>
+If Render loads the blueprint settings, render.yaml supplies build/start commands and free plan.
